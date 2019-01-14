@@ -19,9 +19,9 @@ public class AsalMiJava {
     public static void main(String[] args) {
         // TODO code application logic here
     Scanner inp = new Scanner(System.in);
-    System.out.print("In:");
+    System.out.print("Sayı:");
     double max = inp.nextDouble();
-    //write your code below
+
     int i_max = (int)max;
     int sayi=0;
     int [ ] bolen= new int [i_max] ;
